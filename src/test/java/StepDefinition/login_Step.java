@@ -11,8 +11,7 @@ import io.cucumber.java.en.When;
 public class login_Step {
 	@Given("User is on Net bank login page")
 	public void user_is_on_net_bank_login_page() {
-		System.out.println("======================================");
-		System.out.println("User have vakid credentials ");
+	System.out.println("{{{{{{{{{{{{");
 	    System.out.println("User is landing on login page");
 	    
 	}
@@ -26,7 +25,8 @@ public class login_Step {
 	//data driven
 	@When("^User enter username (.+) and password (.+)$")
 	public void user_enter_user_name_and_password(String un,String pwd) {
-	    System.out.println("User enter credentials ::");
+	    System.out.println("::::::::::::");
+		System.out.println("User enter credentials ::");
 	    System.out.println("User name "+un);
 	    System.out.println("password "+pwd);
 	}
